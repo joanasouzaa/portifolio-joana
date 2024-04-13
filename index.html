@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/extends.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+
+        <link rel="shortcut icon" href="./assets/favicon.png" />
+
+    <title>Joana Amorim - Portifólio</title>
+
+</head>
+
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar__content max-width mb-0">
+            <a href="/">
+                <!-- <h2>Joana</h2> -->
+            </a>
+            <ul class="navbar__links">
+                <li><a href="#header">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+            <div class="navbar__mobile">
+                <img src="assets/menu.svg" alt="menu" class="burguer">
+                <ul class="mobile__links">
+                    <li><a href="#header">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#footer">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+        <div class="header__left">
+            <h1>Olá! Sou Joana Amorim, desenvolvedora Front-End.</h1>
+            <p>Desenvolvedora web front-end com conhecimentos em aplicações web responsivas.</p>
+            <a href="#about" class="btn btn-primary">Saiba mais!</a>
+        </div>
+        <div class="header__right">
+            <div class="header__image">
+                <!-- colocar minha foto -->
+                <img src="assets/joana amorim - foto.jpg" alt="Joana Amorim" class="photo-joana">
+                <!--  -->
+                <img src="assets/abstract.svg" alt="background" class="background">
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about max-width">
+        <div class="about__left">
+            <h2 class="secondary-title">Além do código: quem sou eu?</h2>
+            <p>Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre o meu trabalho?</p>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/joanaamorim.s/">
+                    <img src="assets/instagram.svg" alt="Instagram"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/joana-amorim-de-souza/">
+                    <img src="assets/linkedin.svg" alt="Linkedin"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/joanasouzaa">
+                    <img src="assets/github.svg" alt="GitHub"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="about__right">
+            <h3 class="tertiary-title md-m">
+                Futura desenvolvedora front-end apaixonada por tecnologia e páginas criativas!
+            </h3>
+            <p>
+                Atualmente curso Tecnólogo em Análise e Desenvolvimento de Sistemas e estou no 2º semestre.
+            </p>
+            <p>
+                Minha principal tecnologia de desenvolvimento é o JavaScript e a cada dia me aprofundo mais nos estudos dessa ferramenta!
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills" class="skills">
+        <div class="skills__content max-width">
+            <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
+            <p class="description">Estas são as tecnologias que atualmente estou em busca de aprimoramento:</p>
+
+            <!-- colocar habilidades (html, css e javascript) -->
+            <ul>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/html.svg" alt="html5">
+                    </div>
+                    <h3>HTML5</h3>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/css.svg" alt="css3">
+                    </div>
+                    <h3>CSS3</h3>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/javascript.svg" alt="javascript">
+                    </div>
+                    <h3>JavaScript</h3>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/react.js.svg" alt="reactjs">
+                    </div>
+                    <h3>ReactJS</h3>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects" class="projects max-width">
+        <div class="projects__content">
+            <h2 class="secondary-title">Projetos em Destaque</h2>
+            <p>
+                Aqui estão alguns dos meus trabalhos mais recentes
+            </p>
+        </div>
+
+        <ul>
+            <li>
+                <div class="image">
+                    <img src="assets/weatherwise.png" alt="App Previsão do Tempo">
+                </div>
+                <div class="projects__info">
+                    <!-- Projeto 1 -->
+                    <h3 class="tertiaty-title">
+                        Aplicação web de previsão do tempo - WeatherWise
+                    </h3>
+                    <p>
+                        Projeto de um app para previsão do tempo feito em HTML, CSS e JavaScript. Faz o consumo dos dados de uma API.
+                    </p>
+                    <a href="https://joanasouzaa.github.io/previsao-do-tempo/" target="_blank">Veja mais &rarr;</a>
+                </div>
+            </li>
+            <li class="projects__reversed-list">
+                <div class="image">
+                    <img src="assets/calculadora-imc.png" alt="Calculadora IMC">
+                </div>
+                <div class="projects__info">
+                    <!-- Projeto 2 -->
+                    <h3 class="tertiaty-title">
+                      Aplicação web de uma calculadora de IMC 
+                    </h3>
+                    <p>
+                        Projeto de uma calculadora para o índice de massa corporal, feito em HTML, CSS e JavaScript.
+                    </p>
+                    <a href="https://joanasouzaa.github.io/calculadora-imc/" target="_blank">Veja mais &rarr;</a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="assets/projeto-costs.png" alt="delivery">
+                </div>
+                <div class="projects__info">
+                    <!-- Projeto 3 -->
+                    <h3 class="tertiaty-title">
+                        Sistema de gerenciamento de custos COSTS
+                    </h3>
+                    <p>
+                        Projeto de um gerenciador de custos para empresas, feito com ReactJS e utilizando JSON para armazenar os dados.
+                    </p>
+                    <a href="https://projeto-costs-zeta.vercel.app" target="_blank">Veja mais &rarr;</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer__content max-width mb-0">
+            <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+            <p class="mb-m">Ficarei feliz em saber que tem interesse em meu trabalho.</p>
+            <div class="footer__contact mb-m">
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=joanasouzacontato@gmail.com" class="mb-m" style="cursor: pointer; text-decoration: underline;">joanasouzacontato@gmail.com</a>
+                <span>(14) 99704-8117</span>
+            </div>
+            <ul class="mb-l">
+                <li>
+                    <a href="https://www.instagram.com/joanaamorim.s/">
+                    <img src="assets/instagram.svg" alt="Instagram"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/joana-amorim-de-souza/">
+                    <img src="assets/linkedin.svg" alt="Linkedin"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/joanasouzaa">
+                    <img src="assets/github.svg" alt="GitHub"></a>
+                </li>
+            </ul>
+            <p class="footer__copyright">
+                &copy; 2024 Joana Amorim. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
